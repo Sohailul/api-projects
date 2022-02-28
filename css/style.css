@@ -1,0 +1,35 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.country{
+    border: 2px solid tomato;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#comments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.comment{
+    border: 2px solid tomato;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+#random-users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.user{
+    border: 2px solid tomato;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
